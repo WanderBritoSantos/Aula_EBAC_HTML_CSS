@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+}
+/*--------------header-------------*/
+
+header {
+  width: 100%;
+  height: 15%;
+  background-color: #333;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+header h1 {
+  color: #fff;
+}
+
+/*--------------main-------------*/
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background-color: #666;
+  border-radius: 15px;
+  margin: 5px;
+}
+/*--------------section-----------*/
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 32%;
+  height: 99%;
+  margin: 2px;
+  background-color: #ccc;
+  border: #696969 solid 1px;
+  border-radius: 15px;
+  overflow: hidden; /*limita conteudo filhos */
+}
+/*-------------------imagens e lista ---------------*/
+.d_Apresentacao {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  justify-items: center;
+  align-content: center;
+}
+.imagens,
+.lista {
+  display: block;
+  border: 3px solid #007;
+  height: 45%;
+  width: 75%;
+  margin: 5px;
+  border-radius: 15px;
+  justify-items: center;
+  align-content: center;
+  overflow: hidden;
+}
+section div div ul li {
+  transition: background-color 0.5s ease, color 0.5s ease, transfom 0.5s ease;
+  cursor: pointer;
+}
+
+section div div ul li:hover {
+  background-color: #550000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 15px;
+}
+/*---------------form----------------*/
+h2 {
+  margin: 15px 15px 20px 15px;
+  text-align: center;
+}
+.d_form {
+  margin: 5px 0px 5px 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  padding: 10px;
+}
+hr {
+  background-color: #555;
+  margin: 15px 0px 15px 0px;
+  padding: 1px;
+}
+input,
+textarea {
+  border: 1px solid #111;
+  width: 100%;
+  height: 30px;
+  display: block;
+  border-radius: 8px;
+  align-items: start;
+  padding: 0px 0px 0px 5px;
+  margin: 5px 0px 15px 0px;
+}
+
+section div p {
+  margin: 5px 0px 15px 0px;
+}
+textarea {
+  height: 120px;
+}
+form {
+  display: block;
+}
+.d_bfom {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #587496;
+  border: 1px solid;
+  width: 50%;
+  height: 30px;
+  display: block;
+  border-radius: 8px;
+  align-items: start;
+  padding: 0px 0px 0px 5px;
+  transition: background-color 0.5s ease, color 0.5s ease, transfom 0.5s ease;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #00f;
+}
+/*------------------selection texto -----------*/
+p {
+  margin: 10px;
+}
+.s_texto {
+  display: block;
+  text-align: start;
+}
+
+footer {
+  width: 100%;
+  height: 15vh;
+  background-color: #999;
+  justify-content: center;
+  padding: 0;
+  border-radius: 15px;
+}
+
+footer h3 {
+  text-align: center;
+  padding: 1px;
+}
+footer p {
+  text-align: center;
+}
+
+footer ul {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+footer ul p {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+footer ul div {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+}
+footer ul li {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  justify-content: space-between;
+}

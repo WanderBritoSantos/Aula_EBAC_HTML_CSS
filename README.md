@@ -3,8 +3,11 @@
   O projeto da aula contém os segunites passos
    
   1 Criar uma página 
+  
   2 Estilizar a página;
+  
   3 Torná-la um site online utilizando a plataforma  Vercel;
+  
   4 Compartilhar o link com a EBAC.   
-# frontEnd_EBAC
+  
 # frontEnd_EBAC
